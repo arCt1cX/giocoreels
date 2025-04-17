@@ -1,7 +1,7 @@
 # Gioco dell'Impostore
 
 Un semplice gioco da party per gruppi di amici, dove un giocatore riceve un prompt leggermente diverso dagli altri e il gruppo deve scoprire chi è l'impostore.
-Qui il link per giocare direttamente dal tuo smartphone: arct1cx.github.io/giocoreels/
+Qui il link per giocare direttamente dal tuo smartphone: https://arct1cx.github.io/giocoreels/
 
 ## Come giocare
 
