@@ -10,9 +10,10 @@ Un semplice gioco da party per gruppi di amici, dove un giocatore riceve un prom
 4. Passa il telefono al primo giocatore, che vedrà il suo prompt
 5. Dopo aver letto il prompt, il giocatore preme "Ho Visto" e passa il telefono al giocatore successivo
 6. Ogni giocatore scrive la propria risposta su un foglio di carta
-7. Dopo che tutti i giocatori hanno visto il loro prompt, verrà mostrato il prompt del gruppo
-8. I giocatori discutono e cercano di scoprire chi è l'impostore
-9. Infine, premete "Rivela l'Impostore" per scoprire chi era l'impostore e quale prompt ha ricevuto
+7. Quando tutti i giocatori hanno visto il loro prompt, l'app mostrerà una schermata che invita tutti a scrivere le proprie risposte
+8. Dopo che tutti hanno scritto le risposte, cliccate su "Rivela il Prompt del Gruppo" per vedere il prompt comune
+9. I giocatori discutono e cercano di scoprire chi è l'impostore
+10. Infine, premete "Rivela l'Impostore" per scoprire chi era l'impostore e quale prompt ha ricevuto
 
 ## File inclusi
 

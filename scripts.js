@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // DOM Elements
     const setupScreen = document.getElementById('setup-screen');
     const playerTurnScreen = document.getElementById('player-turn-screen');
+    const writingScreen = document.getElementById('writing-screen');
     const discussionScreen = document.getElementById('discussion-screen');
     const revealScreen = document.getElementById('reveal-screen');
     
@@ -15,6 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const playerPrompt = document.getElementById('player-prompt');
     const hidePromptBtn = document.getElementById('hide-prompt');
     
+    const showGroupPromptBtn = document.getElementById('show-group-prompt');
     const sharedPrompt = document.getElementById('shared-prompt');
     const revealImpostorBtn = document.getElementById('reveal-impostor');
     
@@ -114,17 +116,22 @@ document.addEventListener('DOMContentLoaded', () => {
         showPromptBtn.classList.add('hidden');
     }
     
-    // Move to next player or discussion
-    function nextPlayerOrDiscussion() {
+    // Move to next player or writing screen
+    function nextPlayerOrWriting() {
         if (gameState.currentPlayer < gameState.playerCount) {
             // Move to next player
             gameState.currentPlayer++;
             updatePlayerTurnUI();
         } else {
-            // All players have seen their prompts, move to discussion
-            sharedPrompt.textContent = gameState.groupPrompt;
-            showScreen(discussionScreen);
+            // All players have seen their prompts, move to writing screen
+            showScreen(writingScreen);
         }
+    }
+    
+    // Show the group prompt and move to discussion
+    function showGroupPrompt() {
+        sharedPrompt.textContent = gameState.groupPrompt;
+        showScreen(discussionScreen);
     }
     
     // Reveal the impostor
@@ -139,6 +146,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Hide all screens
         setupScreen.classList.remove('active');
         playerTurnScreen.classList.remove('active');
+        writingScreen.classList.remove('active');
         discussionScreen.classList.remove('active');
         revealScreen.classList.remove('active');
         
@@ -151,7 +159,9 @@ document.addEventListener('DOMContentLoaded', () => {
     
     showPromptBtn.addEventListener('click', showPrompt);
     
-    hidePromptBtn.addEventListener('click', nextPlayerOrDiscussion);
+    hidePromptBtn.addEventListener('click', nextPlayerOrWriting);
+    
+    showGroupPromptBtn.addEventListener('click', showGroupPrompt);
     
     revealImpostorBtn.addEventListener('click', revealImpostor);
     
