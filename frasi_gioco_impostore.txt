@@ -140,3 +140,116 @@ La stagione più sottovalutata | La stagione più sopravvalutata
 Il miglior animale fantastico | L’animale fantastico meno utile
 Il miglior tipo di film | Il tipo di film più noioso
 La cosa più divertente da fare in famiglia | La cosa più noiosa da fare in famiglia
+età media in cui si va a vivere da soli | età in cui una persona cambia casa per la prima volta
+numero di viaggi all'anno che una persona vorrebbe fare | numero di viaggi all'anno che una persona riesce davvero a fare
+numero di scarpe che una persona media possiede | numero di scarpe che usi veramente
+numero ideale di ore di sonno a notte | numero reale di ore che dormi ogni notte
+quante tazze di caffè si bevono in media al giorno | quante se ne bevono nei periodi stressanti
+numero di serie TV iniziate e mai finite | numero di serie TV viste più di una volta
+numero ideale di vacanze all'anno | numero minimo per sentirsi rigenerati
+età in cui si prende la patente | età in cui si guida da soli per la prima volta
+numero medio di amici stretti | numero di amici con cui ti senti ogni settimana
+quante volte si controlla il telefono al giorno | quante volte si dovrebbe controllare al giorno
+numero di ore passate sui social ogni settimana | numero di ore che sembrano passate sui social
+quanti esami si passano al primo colpo | quanti esami si ripetono almeno una volta
+quanti film si guardano in un mese | quanti film si iniziano ma non si finiscono
+quanti messaggi si mandano al giorno | quanti se ne leggono e non si risponde
+età in cui si ha il primo lavoro retribuito | età in cui si capisce quanto vale il proprio tempo
+numero medio di password usate | numero di password ricordate a memoria
+numero di paesi che si vorrebbe visitare | numero di paesi visitati finora
+quanti libri si leggono in un anno | quanti libri si iniziano e non si finiscono
+quanti regali si fanno a Natale | quanti regali si ricevono a Natale
+numero di sport provati nella vita | numero di sport praticati con costanza
+quante app si hanno installate | quante app si usano ogni giorno
+quanti account social si posseggono | quanti se ne usano regolarmente
+Un cibo che odiavi da piccolo | Un cibo che hai sempre amato
+Una serie TV da binge-watchare | Una serie TV che richiede riflessione
+Un personaggio famoso che stimi | Uno che ti incuriosisce ma non ti convince
+Una lingua che vorresti imparare | Una lingua che ti incuriosisce ma non studieresti mai
+Una cosa che porteresti su un'isola deserta | Una cosa che non servirebbe su un'isola deserta
+Una canzone da karaoke | Una canzone impossibile da cantare ma che ami
+Un’attività sportiva divertente | Un’attività sportiva faticosa ma soddisfacente
+Un piatto tipico della tua regione | Un piatto tipico che hai scoperto altrove
+Un momento imbarazzante in pubblico | Un momento che ti ha reso fiero in pubblico
+Un oggetto da tenere sulla scrivania | Un oggetto che sparisce sempre quando serve
+Un animale marino affascinante | Un animale terrestre altrettanto interessante
+Un’attività da fare quando piove | Una da fare sotto il sole cocente
+Una festività che ami | Una festività che ti mette nostalgia
+Un cibo da strada delizioso | Un piatto da ristorante stellato che hai provato
+Una cosa che odi dimenticare a casa | Una cosa inutile che porti sempre con te
+Un animale che trovi elegante | Un animale che trovi simpatico
+Un simbolo di libertà | Un simbolo di responsabilità
+Un locale perfetto per una serata tranquilla | Un locale per serate movimentate
+Un errore che ti ha insegnato qualcosa | Un successo che ti ha sorpreso
+Un animale che vorresti come compagno d’avventura | Un animale che sarebbe difficile da gestire come compagno
+Un'app indispensabile | Un'app che usi troppo spesso
+Un gioco da fare in compagnia | Un gioco che ti prende anche da solo
+Un'app che tutti usano | Un'app che solo tu conosci
+Un oggetto che conservi da anni | Uno che cambi spesso
+Una canzone d’amore | Una canzone di rottura che ami
+Un'attività da fare al mattino | Un'attività da fare a notte fonda
+Un'abitudine quotidiana | Un'abitudine che vuoi perdere
+Una frase che ti ripeti spesso | Una frase che odi sentirti dire
+Un colore che mette allegria | Un colore che trasmette calma
+Un segreto buffo che puoi dire | Un dettaglio di te che nessuno sa
+Una tua stranezza | Una tua abitudine comune
+Un posto dove perderti | Un posto dove ritrovarti
+Un film che tutti dovrebbero vedere almeno una volta | Un film che molti sopravvalutano
+Un capo d’abbigliamento che non metti mai | Un capo che indossi troppo spesso
+Un luogo dove hai riso tanto | Un luogo dove hai pianto
+Un’attività creativa | Un’attività ripetitiva ma rassicurante
+Un hobby rilassante | Un hobby stimolante ma stancante
+Una cosa che ti rilassa a fine giornata | Una cosa che fai appena sveglio
+Un evento che aspetti ogni anno | Uno che eviti
+Un gusto di gelato preferito | Un gusto che provi solo ogni tanto
+Un oggetto vintage che vorresti avere | Un oggetto futuristico che ti incuriosisce
+Un sogno ricorrente | Un sogno che hai fatto solo una volta ma ricordi benissimo
+Un animale simbolico | Un animale che ti rappresenta personalmente
+Un animale veloce | Un animale incredibilmente paziente
+Una cosa che ti dà nostalgia | Una cosa che ti fa ridere ogni volta
+Una vacanza che sogni da tempo | Una vacanza che hai fatto e non rifaresti
+Una parola che suona bene | Una parola difficile da pronunciare
+Una città da visitare in autunno | Una città che sorprende in inverno
+Un gesto romantico | Un gesto buffo che ha funzionato
+Un regalo perfetto per un amico | Un regalo strano ma memorabile
+Un’attività da fare con amici | Un’attività da fare da soli
+Un gadget tecnologico che usi spesso | Un gadget che hai ma non usi mai
+Un’attività tipica del weekend | Un’attività che fai nei momenti liberi in settimana
+Un capo d’abbigliamento comodo | Un capo d’abbigliamento elegante ma scomodo
+Un lavoro che faresti per passione | Un lavoro che non faresti mai
+Una cosa da portare in campeggio | Una cosa inutile da portare in campeggio
+Un piatto perfetto per un primo appuntamento | Un piatto da evitare al primo appuntamento
+Un oggetto inutile ma affascinante | Un oggetto utile ma brutto
+Una competenza che vuoi imparare | Una che ti piacerebbe insegnare
+Un luogo ideale per leggere un libro | Un luogo insolito in cui leggere un libro
+Un artista sottovalutato | Un artista conosciutissimo ma che non ti convince
+Un artista italiano che ti piace | Un artista straniero che segui da tempo
+Un’attività che ti rilassa | Un’attività che ti carica di energia
+Un’attività che ti faceva paura | Una che adesso ti rilassa
+Un film da vedere con la famiglia | Un film da vedere da soli
+Una persona che ammiri | Una persona che ti ha insegnato molto, anche involontariamente
+Un colore per una stanza | Un colore per un accessorio
+Una serie animata indimenticabile | Una serie animata che non tutti conoscono
+Un oggetto che porti sempre con te | Un oggetto che non usi mai ma non riesci a buttare
+Un profumo che ami | Un profumo che ti ricorda qualcosa
+Un ricordo recente | Un ricordo che sembra lontanissimo
+Un personaggio storico affascinante | Un personaggio storico controverso
+Un dolce per una festa | Un dolce che crea dibattito
+Una canzone che mette subito di buon umore | Una canzone che ti fa pensare
+Una pubblicità che ti è rimasta impressa | Una pubblicità che hai odiato
+Un libro che rileggi spesso | Un libro che ti ha sorpreso
+Un film che tutti amano | Uno che pochi conoscono ma che ti ha colpito
+Un colore che indossi spesso | Uno che eviti sempre
+Una citazione che ti ispira | Una frase che ti diverte
+Un’esperienza che consiglieresti | Una che non rifaresti ma è servita
+Una meta per un viaggio on the road | Una meta per un viaggio di relax totale
+Un cibo da mangiare d’estate | Un cibo che ami anche fuori stagione
+Una bevanda da spiaggia | Una bevanda da serata invernale
+Un ricordo d’infanzia felice | Un ricordo d’infanzia buffo
+Un’esperienza che vuoi rifare | Un’esperienza che è stata unica ma non rifaresti
+Un animale domestico comune | Un animale domestico non convenzionale
+Un oggetto tecnologico utile | Uno superfluo ma divertente
+Una cosa che odi fare | Una cosa che ami anche se è faticosa
+Un regalo che hai ricevuto | Un regalo che hai fatto con amore
+Un film d’azione memorabile | Un film drammatico che ti ha colpito
+Un film che ti ha fatto piangere | Un film che ti ha fatto ridere a crepapelle
