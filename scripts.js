@@ -32,7 +32,8 @@ document.addEventListener('DOMContentLoaded', () => {
         prompts: [],
         groupPrompt: '',
         impostorPrompt: '',
-        allPhrasePairs: []
+        allPhrasePairs: [],
+        hasImpostor: true // New property to track if there's an impostor
     };
     
     // Load prompts from the text file
@@ -72,19 +73,37 @@ document.addEventListener('DOMContentLoaded', () => {
         gameState.currentPlayer = 1;
         gameState.prompts = [];
         
-        // Randomly select the impostor
-        gameState.impostorIndex = Math.floor(Math.random() * gameState.playerCount);
+        // Determine if this game will have an impostor (1/50 chance of no impostor)
+        gameState.hasImpostor = Math.random() > 0.02; // 98% chance to have an impostor
         
-        // Randomly select a phrase pair for this round
-        const randomPairIndex = Math.floor(Math.random() * gameState.allPhrasePairs.length);
-        const selectedPair = gameState.allPhrasePairs[randomPairIndex];
-        
-        gameState.groupPrompt = selectedPair.groupPhrase;
-        gameState.impostorPrompt = selectedPair.impostorPhrase;
-        
-        console.log(`Game started with ${gameState.playerCount} players, impostor is player ${gameState.impostorIndex + 1}`);
-        console.log(`Group prompt: ${gameState.groupPrompt}`);
-        console.log(`Impostor prompt: ${gameState.impostorPrompt}`);
+        if (gameState.hasImpostor) {
+            // Randomly select the impostor
+            gameState.impostorIndex = Math.floor(Math.random() * gameState.playerCount);
+            
+            // Randomly select a phrase pair for this round
+            const randomPairIndex = Math.floor(Math.random() * gameState.allPhrasePairs.length);
+            const selectedPair = gameState.allPhrasePairs[randomPairIndex];
+            
+            gameState.groupPrompt = selectedPair.groupPhrase;
+            gameState.impostorPrompt = selectedPair.impostorPhrase;
+            
+            console.log(`Game started with ${gameState.playerCount} players, impostor is player ${gameState.impostorIndex + 1}`);
+            console.log(`Group prompt: ${gameState.groupPrompt}`);
+            console.log(`Impostor prompt: ${gameState.impostorPrompt}`);
+        } else {
+            // No impostor game!
+            gameState.impostorIndex = -1;
+            
+            // Select just a group prompt
+            const randomPairIndex = Math.floor(Math.random() * gameState.allPhrasePairs.length);
+            const selectedPair = gameState.allPhrasePairs[randomPairIndex];
+            
+            gameState.groupPrompt = selectedPair.groupPhrase;
+            gameState.impostorPrompt = ""; // Not used in this game
+            
+            console.log("Special game: No impostor!");
+            console.log(`Group prompt for everyone: ${gameState.groupPrompt}`);
+        }
         
         // Update UI for first player
         updatePlayerTurnUI();
@@ -105,8 +124,9 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // Show prompt for current player
     function showPrompt() {
-        // Determine if current player is the impostor
-        const isImpostor = (gameState.currentPlayer - 1) === gameState.impostorIndex;
+        // In a no-impostor game, everyone gets the same prompt
+        // Otherwise, the impostor gets a different prompt
+        const isImpostor = gameState.hasImpostor && (gameState.currentPlayer - 1) === gameState.impostorIndex;
         
         // Set the appropriate prompt
         playerPrompt.textContent = isImpostor ? gameState.impostorPrompt : gameState.groupPrompt;
@@ -136,8 +156,27 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // Reveal the impostor
     function revealImpostor() {
-        impostorNum.textContent = gameState.impostorIndex + 1;
-        impostorPrompt.textContent = gameState.impostorPrompt;
+        const impostorRevealElement = document.querySelector('.impostor-reveal');
+        
+        // Remove any previous classes that might be applied
+        impostorRevealElement.classList.remove('no-impostor-surprise');
+        
+        // Update the reveal screen based on whether there was an impostor
+        if (gameState.hasImpostor) {
+            // Normal game with an impostor
+            document.querySelector('.reveal-header h2').textContent = "L'Impostore è...";
+            impostorRevealElement.innerHTML = `Il giocatore <span id="impostor-num">${gameState.impostorIndex + 1}</span>!`;
+            document.querySelector('.impostor-prompt-container p:first-child').textContent = "Il suo prompt era:";
+            impostorPrompt.textContent = gameState.impostorPrompt;
+        } else {
+            // Special game with no impostor!
+            document.querySelector('.reveal-header h2').textContent = "Sorpresa!";
+            impostorRevealElement.innerHTML = "Ahah! Nessuno era l'impostore! <span class='emoji-surprise'>😜</span>";
+            impostorRevealElement.classList.add('no-impostor-surprise');
+            document.querySelector('.impostor-prompt-container p:first-child').textContent = "Eravate tutti dalla stessa parte:";
+            impostorPrompt.textContent = gameState.groupPrompt;
+        }
+        
         showScreen(revealScreen);
     }
     

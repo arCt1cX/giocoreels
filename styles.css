@@ -285,4 +285,41 @@ p {
         font-size: 1rem;
         padding: 15px;
     }
+}
+
+/* Special styling for the no-impostor surprise */
+.no-impostor-surprise {
+    color: #03dac6;
+    font-weight: bold;
+    animation: bounce 1s ease infinite;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+/* Special emoji animation */
+.emoji-surprise {
+    display: inline-block;
+    animation: spin 1s ease infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(20deg);
+    }
+    75% {
+        transform: rotate(-20deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
 } 
